@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "../images/logo.png"; // Adjust the path if needed
 
@@ -66,7 +66,7 @@ const Header = () => {
                 </a>
               ))}
               <div className="pt-4 pb-2">
-                <button className="w-full bg-white text-black px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors duration-200">
+                <button className="w-full bg-white text-black px-4 py-2.5 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors duration-200">
                   Try For Free
                 </button>
               </div>

@@ -1,8 +1,6 @@
-import React from "react";
-
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 mix-blend-screen overflow-hidden -mt-10 sm:-mt-16 lg:-mt-24">
+    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 mix-blend-screen overflow-hidden -mt-16 sm:-mt-20 lg:-mt-24">
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto text-center ">
         {/* Main Headline */}
