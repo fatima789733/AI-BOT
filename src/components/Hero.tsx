@@ -4,13 +4,13 @@ const Hero = () => {
       {/* Main Headline */}
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[61px] font-bold leading-tight">
-          <span className="animate-fade-in-up bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 bg-clip-text text-transparent">
+          <span className="animate-fade-in-up bg-gradient-to-r from-gray-400 via-gray-200 to-gray-100 bg-clip-text text-transparent">
             Trade Smarter.
           </span>
           <span className="animate-fade-in-up animation-delay-200 text-white">
-            Every Move,
+            {""} Every Move,
           </span>
-          <span className="block animate-fade-in-up animation-delay-400 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 bg-clip-text text-transparent">
+          <span className="block animate-fade-in-up animation-delay-400 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-400 bg-clip-text text-transparent">
             Backed By AI.
           </span>
         </h1>
