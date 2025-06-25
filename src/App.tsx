@@ -7,7 +7,7 @@ import myBackground from "./images/bg.png"; // Adjust path as needed
 
 function App() {
   return (
-    <div className="min-h-screen relative overflow-hidden mix-blend-screen">
+    <div className="h-screen relative overflow-hidden mix-blend-screen">
       {/* Background Image Container - Replace the src with your image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat mix-blend-screen"
@@ -16,10 +16,10 @@ function App() {
         }}
       ></div>
       {/* Spline 3D Background */}
-      <div className="absolute inset-0 z-0 mix-blend-screen">
+      <div className="absolute inset-0 z-0 mt-[400px] mix-blend-screen border-l border-red-600">
         <Spline
           scene="https://prod.spline.design/sfZGQEXVpnnCQMdh/scene.splinecode"
-          className="w-full h-full object-cover mt-[500px]"
+          className="w-full h-full object-cover "
         />
       </div>
       {/* Content */}

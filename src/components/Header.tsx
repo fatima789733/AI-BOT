@@ -13,7 +13,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="relative z-50 w-full">
+    <header className="relative z-50 w-full px-6 sm:px-8 lg:px-12">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
